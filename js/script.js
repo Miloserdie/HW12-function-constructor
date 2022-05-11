@@ -15,7 +15,7 @@ function Hamburger(s) {
 	this.addModifier = (m) => {
    	this.price += m.price;
    	this.calories += m.calories;
-	};
+	}
 
 	this.getPrice = () => this.price;
 
